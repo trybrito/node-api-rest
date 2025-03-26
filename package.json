@@ -1,0 +1,25 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"lint": "biome lint --fix --unsafe --verbose && biome format --fix --verbose"
+	},
+	"keywords": [],
+	"author": "Thiago Brito<https://github.com/trybrito>",
+	"license": "MIT",
+	"packageManager": "pnpm@10.7.0",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.13.13",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"fastify": "^5.2.2",
+		"knex": "^3.1.0",
+		"sqlite3": "^5.1.7",
+		"zod": "^3.24.2"
+	}
+}
