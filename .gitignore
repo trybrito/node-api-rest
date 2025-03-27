@@ -137,3 +137,5 @@ dist
 
 # Other
 db/app.db
+db/test.db
+.env.test
