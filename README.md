@@ -10,5 +10,3 @@
 - [X] As transações podem ser do tipo crédito (que somará o valor da transação ao valor total) ou débito (que subtrairá o valor da transação do valor total);
 - [X] Deve ser possível identificar o usuário entre as requisições;
 - [X] O usuários só pode visualizar as transações que foram criadas pelo mesmo;
-
-# RNF
