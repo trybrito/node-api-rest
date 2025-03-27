@@ -1,7 +1,7 @@
 # RF
 
 - [X] O usuário deve poder criar uma nova transação;
-- [] O usuário deve poder visualizar um resumo da sua conta (créditos - débitos);
+- [X] O usuário deve poder visualizar um resumo da sua conta (créditos - débitos);
 - [X] O usuário deve poder visualizar todas as transações;
 - [X] O usuário deve poder visualizar informações de uma transação específica;
 
