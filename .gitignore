@@ -135,7 +135,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Other
-db/app.db
-db/test.db
-.env.test
+# Database
+db/*.db
+
+# Build
+build

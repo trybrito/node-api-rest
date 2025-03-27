@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"ignoreUnknown": true,
-		"ignore": []
+		"ignore": ["build/**", "node_modules"]
 	},
 	"formatter": {
 		"enabled": true,
