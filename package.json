@@ -2,6 +2,9 @@
 	"name": "api",
 	"version": "1.0.0",
 	"main": "index.js",
+	"engines": {
+		"node": ">=18"
+	},
 	"scripts": {
 		"dev": "tsx watch src/server.ts",
 		"knex": "node --import tsx ./node_modules/.bin/knex",
@@ -17,6 +20,7 @@
 		"@biomejs/biome": "1.9.4",
 		"@types/node": "^22.13.13",
 		"@types/supertest": "^6.0.3",
+		"sqlite3": "^5.1.7",
 		"supertest": "^7.1.0",
 		"tsup": "^8.4.0",
 		"tsx": "^4.19.3",
@@ -28,7 +32,7 @@
 		"dotenv": "^16.4.7",
 		"fastify": "^5.2.2",
 		"knex": "^3.1.0",
-		"sqlite3": "^5.1.7",
+		"pg": "^8.14.1",
 		"zod": "^3.24.2"
 	}
 }
